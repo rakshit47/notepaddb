@@ -1,0 +1,122 @@
+* {
+  font-family: "century gothic";
+  margin: 0px;
+}
+
+.one {
+  /* display: inline; */
+  position: static;
+  background-color: rgb(234, 255, 0);
+}
+
+.heading {
+  display: inline-block;
+  margin: 15px;
+  color: rgb(25, 25, 25);
+  font-weight: 100;
+  height: auto;
+  box-shadow: 0px 0px 0px #719ece;
+}
+
+img {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.textarea {
+  /* font-family: 'century gothic'; */
+  color: rgb(33, 33, 33);
+  border: 1px solid rgb(162, 162, 162);
+  box-shadow: 0 0 #719ece;
+  padding: 20px;
+  height: 300px;
+  width: 88%;
+  margin-inline: 10px;
+  margin-block: 30px;
+  overflow: auto;
+}
+
+.textarea:focus {
+  outline: none !important;
+}
+
+.footer {
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  color: rgb(255, 255, 255);
+  text-align: right;
+}
+
+.btn {
+  margin: 10px;
+  margin-bottom: 20px;
+  width: 210px;
+  padding-inline: 20px;
+  padding-block: 5px;
+  border-radius: 14px;
+  border: 0.5px solid;
+  cursor: pointer;
+}
+
+input {
+  margin-inline-start: 20px;
+  margin-right: 1%;
+  padding-block: 5px;
+  padding-inline: 15px;
+  margin-bottom: 1px;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+hr {
+  height: 12px;
+  border: 0pc;
+  background-color: rgb(40, 40, 40);
+  box-shadow: 1px 1px 2px rgb(40, 40, 40);
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  outline: none;
+  margin-left: 0%;
+}
+
+.msg {
+  font-weight: bolder;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.abt{
+  text-align: center;
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+}
+
+.info{
+  
+  background-color: rgb(164, 26, 26);
+  width: 100%;
+  height: 35vh;
+  padding-top: 30px;
+  color: aliceblue;
+}
+
+fo{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-size: large; */
+}
+
+sp{
+  font-size: medium;
+}

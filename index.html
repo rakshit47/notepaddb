@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NotepadDB</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="https://i.ibb.co/ZXNqjq0/ico.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="one">
+      <h1 class="heading">
+        NotepadDB<sp>(Saving and Sharing ideas with One Word)</sp>
+      </h1>
+      <hr />
+    </div>
+    <br />
+    <form id="frm1" action="submit">
+      <input autocomplete="off" id="t1" type="text" placeholder="Filename" />
+      <button id="sbtn" type="submit" class="btn">Search</button>
+    </form>
+    <ul>
+      <li>Search for File you saved by Name</li>
+      <li>You can Create New Files below</li>
+    </ul>
+    <form id="frm">
+      <div id="txt" class="textarea" contenteditable="true"></div>
+      <pre id="tmsg" class="msg"> </pre>
+      <input id="name" type="text" placeholder="FileName*" autocomplete="off" />
+      <button disabled id="btn" class="btn" type="submit">
+        Create Context
+      </button>
+    </form>
+    <pre id="msg" class="msg"> </pre>
+    <ul style="margin-bottom: 70px">
+      <li>Create New Rich Text File with Simple Words</li>
+      <li id="ferr"><b>Space</b> and <b>Dot</b> are not allowed</li>
+      <li id="fnam">File Name Must be <b>Unique</b></li>
+    </ul>
+    <hr>
+    <div class="abt">
+      <div class="info">
+        <p>
+          <fo>This is a Basic and Useful Web Tool for quick saving and sharing data especially Text and Rich text like WepPages or HTML Pages.<br> You just need to copy and paste the data into the text area and that's it a dedicated url link is created with your FileName you saved.</fo>
+          <br><br>
+          <fo>
+            Most Interesting thing about this tool is that you can access your file on any device with your FileName anytime.
+          </fo>
+          <br><br>
+          <fo>
+            This Web Tool is created with the help of Node.js, Express and MonogDB.
+          </fo><br>
+          <a href="https://www.linkedin.com/in/rakshit-raj/">
+            <img src="https://brandlogos.net/wp-content/uploads/2016/06/linkedin-logo-512x512.png" alt="" height="60px">
+          </a><br>
+          <fo>@rakshit</fo>
+        </p>
+      </div>
+    </div>
+    <div class="footer"></div>
+
+    <!-- Sending data to server -->
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
