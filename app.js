@@ -125,7 +125,7 @@ const checker = (name) => {
   if (name.length > 16) throw { status: 403, msg: `FileName Too Long` };
   for (ele of name) {
     let val = ele.charCodeAt(0);
-    if (val < 34 || val > 126 || val == 46)
+    if (val < 34 || val > 126 || val == 46 || val == 92 || val == 47  || val == 63)
       throw { status: 403, msg: ` '${ele}' is not allowed` };
   }
 };
