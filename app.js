@@ -50,7 +50,7 @@ app.route("/:fname").get((req, res) => {
   db.find(req.params.fname).then((d) => {
     if (!!d?.text)
       res.send(`<head>
-    <title>${d.name}.txt</title>
+    <title>${d.name}</title>
     <link rel="shortcut icon" href="https://i.ibb.co/ZXNqjq0/ico.png" type="image/x-icon">
 </head>
 <body style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif";>
